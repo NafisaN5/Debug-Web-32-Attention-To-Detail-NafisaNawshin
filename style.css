@@ -1,0 +1,62 @@
+ /* ORIGINAL TASK PUPILS STARTED WITH
+Full credit to code.org for task */
+
+/* I added a body tag and changed the color to a purple theme for all the fonts and changed the font family */
+body{
+  background-color: #beccda;
+  font-family: Courier New;
+  text-align: center;
+}
+p {
+  color: #2a2722;
+  font-style: italic;
+  
+}
+h1 {
+  color: #530080;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+h3 {
+  color: #28252d;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: Helvetica, sans-serif;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+  border: solid #40295b;;
+}
+
+.red{
+  background-color: #ac5353;
+}
+
+.green{
+  background-color: #81b361;
+}
+
+.blue{
+  background-color: #4d77ac;
+}
+.color img {
+  border: 2px solid #292623;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.color:hover img {
+  transform: scale(1.1);
+}
+
+
+.color h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #202221;  
+  font-family: 'Georgia', serif;
